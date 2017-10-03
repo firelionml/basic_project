@@ -22,7 +22,7 @@ const config = {
 
             },
             {
-                test: /app\.css/,
+                test: /\.pcss$/,
                 use: extractStyles.extract({
                     use: [
                         {

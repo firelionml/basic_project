@@ -1,5 +1,5 @@
 import MyModule, {MyModule2, MyModule4 as MyModule3} from './my-module';
-import styles from './app.css';
+import styles from './app.pcss';
 
 console.log('Start basic project');
 console.log(MyModule);
