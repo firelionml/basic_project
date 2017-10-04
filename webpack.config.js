@@ -23,15 +23,7 @@ const config = {
             },
             {
                 test: /\.pcss$/,
-                use: extractStyles.extract({
-                    use: [
-                        {
-                            loader: 'css-loader',
-                            options: { importLoaders: 1 },
-                        },
-                        'postcss-loader',
-                    ],
-                }),
+                use: ['style-loader', 'css-loader', 'postcss-loader']
             }
         ]
     },
